@@ -1,3 +1,6 @@
+# CI/CD
+
+
 # Next-url shortner
 ![example workflow](https://github.com/chuddyjoachim/next-url/actions/workflows/deploy.yml/badge.svg)
 </br>
