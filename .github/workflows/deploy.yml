@@ -9,9 +9,9 @@ jobs:
       - name: Set Env Vars on Vercel Project
         uses: dkershner6/vercel-set-env-action@v1
         with:
-          token: "Tghkta0MrOCkzxG9j7goKHcH"
-          teamId: ${{ secrets.VERCEL_TEAM_ID }} # optional, without will use personal
-          projectName: nexturl # project name in Vercel
+          token: Tghkta0MrOCkzxG9j7goKHcH
+          teamId: cryptsky # optional, without will use personal
+          projectName: hlsa-task22 # project name in Vercel
           envVariableKeys: MONGODB_URL,MONGODB_DB
         env:
           MONGODB_URL: ${{ secrets.MONGODB_URL }}
