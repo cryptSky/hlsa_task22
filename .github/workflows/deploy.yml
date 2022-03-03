@@ -14,10 +14,10 @@ jobs:
           projectName: hlsa-task22 # project name in Vercel
           envVariableKeys: MONGODB_URL,MONGODB_DB
         env:
-          MONGODB_URL: ${{ secrets.MONGODB_URL }}
+          MONGODB_URL: mongodb+srv://admin:admin@cluster0.cg1wb.mongodb.net/database?retryWrites=true&w=majority
           TARGET_MONGODB_URL: preview,development,production # comma delimited, one of [production, preview, development]
           TYPE_MONGODB_URL: encrypted # one of [plain, encrypted]
-          MONGODB_DB: ${{ secrets.MONGODB_DB }}
+          MONGODB_DB: database
           TARGET_MONGODB_DB: preview,development,production
           TYPE_MONGODB_DB: encrypted
           
